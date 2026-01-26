@@ -1,0 +1,10 @@
+[Unit]
+Description=Auto connect PS4 controller
+After=bluetooth.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ps4-auto-connect.sh
+
+[Install]
+WantedBy=multi-user.target
