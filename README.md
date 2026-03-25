@@ -27,6 +27,29 @@ This project provides a robust interface for connecting and reading input from a
 
 ---
 
+
+## Hardware Requirements
+
+- BeagleBone Black (BBB)
+- Compatible Bluetooth USB dongle (e.g., Cambridge Silicon Radio, Ltd Bluetooth Dongle)
+- PlayStation 4 (PS4) controller
+
+To verify your Bluetooth dongle is detected, run:
+
+```sh
+lsusb
+```
+
+Example output:
+
+```
+root@BeagleBone:~/PS4_BBB_Direct# lsusb
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
+```
+
+---
+
 ## Setup & Installation
 
 1. **Clone this repository** on your BeagleBone Black.
